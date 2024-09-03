@@ -1,5 +1,19 @@
 https://www.youtube.com/watch?v=S6Yd5cPtXr4&list=PL0g02APOH8okXhOQLOLcB_nifs1U41im5
 
+
+0. VS Code extension setup:
+    - node-readme
+        v3.0.2
+        bengreenier
+
+    - Mongo Snippets for Node-js
+        v1.3.12
+        Rohan Mukherjee
+        
+    -ES7+ React/Redux/React-Native snippets
+        v4.4.3
+        dsznajder
+
 1. Project Setup:
 --------------------
 npm init
@@ -32,4 +46,17 @@ npm i nodemon --save-dev
 
 #connect database
     - create file dbConnect.js into [config] folders
-    
+
+#user registration
+    - userController.js
+    - userModel.js
+    - authRoute.js
+
+#error handling
+    - errorHandler.js
+    - install package 
+        //this package shows the stack when through a new error . by stack we can know in which file error generate.
+        npm i express-async-handler
+
+#password encryption we will use bcrypt
+
