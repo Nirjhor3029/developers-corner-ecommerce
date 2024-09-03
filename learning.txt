@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=S6Yd5cPtXr4&list=PL0g02APOH8okXhOQLOLcB_nifs1U41im5
+
+1. Project Setup:
+--------------------
+npm init
+
+create some folders
+    config
+    controller
+    middlewares
+    routes
+& create index.js & .env file
+
+install required packages
+    - express
+    - mongoose
+    - bcrypt
+    - body-parser
+    - dotenv
+
+npm i express mongoose bcrypt body-parser dotenv
+
+
+2.
+---------------------------------------
+setup basic server and run it by index.js
+
+#for watch
+npm i nodemon --save-dev 
+
+#response send to site for display in "/" route
+
+#connect database
+    - create file dbConnect.js into [config] folders
+    
